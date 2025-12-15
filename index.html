@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <title>Sana Bir Şey Söylemek İstiyorum</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sana Küçük Bir Not</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container active">
-    <p class="text">Sana bir şey söylemek istiyorum.</p>
-    <button onclick="nextSlide()">devam et</button>
+<div class="envelope" onclick="openEnvelope()">
+  <div class="top"></div>
+  <div class="letter">
+    <p>
+      Bunu özel bir gün için saklamadım.<br><br>
+      Çünkü seni sevdiğim her gün özel.
+    </p>
+  </div>
 </div>
 
-<div class="container">
-    <img src="img/foto1.jpg">
-    <p class="text">Hayatıma girdiğinden beri her şey biraz daha sakin.</p>
-    <button onclick="nextSlide()">→</button>
-</div>
+<div class="content hidden">
+  <img src="img/foto1.jpg">
+  <p class="text">Yanımdayken dünya biraz daha yavaş.</p>
 
-<div class="container">
-    <img src="img/foto2.jpg">
-    <p class="text">Gülüşün, dünyayı durduruyor.</p>
-    <button onclick="nextSlide()">→</button>
-</div>
+  <img src="img/foto2.jpg">
+  <p class="text">Ve ben o hızda kalmak istiyorum.</p>
 
-<div class="container">
-    <img src="img/foto3.jpg">
-    <h1>Seni seviyorum.</h1>
-    <p class="small">Sadece bilmeni istedim.</p>
+  <h1>Seni seviyorum 🌸</h1>
 </div>
 
 <script src="script.js"></script>
